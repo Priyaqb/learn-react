@@ -1,0 +1,380 @@
+[
+  {
+    "name": {
+      "first": "Pournami",
+      "last": "Azad"
+    },
+    "userId": "pournami",
+    "employeeID": "1961",
+    "designation": "Associate Principal Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "Aug 17, 1990",
+    "hiredOn": "Sep 19, 2012",
+    "email": "pournami@qburst.com",
+    "phone": "9496632551",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "bozzuto",
+        "name": "Bozzuto",
+        "allocationPercentage": 20
+      },
+      {
+        "projectId": "brookfield_projects",
+        "name": "Brookfield Projects",
+        "allocationPercentage": 20
+      },
+      {
+        "projectId": "windsor_communities",
+        "name": "Windsor Communities",
+        "allocationPercentage": 60
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "pournami.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "Chart.js"]
+  },
+  {
+    "name": {
+      "first": "Priya",
+      "last": "Sasidharan"
+    },
+    "userId": "priyas",
+    "employeeID": "1370",
+    "designation": "Principal Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "May 02, 1986",
+    "hiredOn": "May 19, 2010",
+    "email": "priyas@qburst.com",
+    "phone": "9547812456",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "wordpress_development_zafin",
+        "name": "Wordpress development, Zafin",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "priya.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["HTML", "SEO", "AMP", "HTML 5", "XML", "GIT"]
+  },
+  {
+    "name": {
+      "first": "Mahima",
+      "last": " Thomas"
+    },
+    "userId": "mahima",
+    "employeeID": "2840",
+    "designation": "Lead Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "Dec 07, 1992",
+    "hiredOn": "Sep 19, 2014",
+    "email": "mahima@qburst.com",
+    "phone": "9499452551",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "un_women_transparency_portal_phase_3",
+        "name": "UN Women Transparency Portal Phase 3",
+        "allocationPercentage": 80
+      },
+      {
+        "projectId": "joola_ecommerce",
+        "name": "JOOLA ecommerce",
+        "allocationPercentage": 20
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "mahima.jpg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "Chart.js"]
+  },
+  {
+    "name": {
+      "first": "Ann",
+      "last": " Babu"
+    },
+    "userId": "ann",
+    "employeeID": "1753",
+    "designation": "Associate Principal Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "Nov 07, 1989",
+    "hiredOn": "Dec 28, 2011",
+    "email": "ann@qburst.com",
+    "phone": "8499452551",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "damac_adHoc_support_resources",
+        "name": "Damac - AdHoc Support Resources",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "ann.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "Chart.js"]
+  },
+  {
+    "name": {
+      "first": "Divya",
+      "last": "Panackal"
+    },
+    "userId": "divyap",
+    "employeeID": "1545",
+    "designation": "Associate Principal Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "Jan 01, 1991",
+    "hiredOn": "May 02, 2012",
+    "email": "divyap@qburst.com",
+    "phone": "9497389625",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "willington",
+        "name": "Willington Properties",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "divya.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT"]
+  },
+  {
+    "name": {
+      "first": "Shahina",
+      "last": "Anvar"
+    },
+    "userId": "divyap",
+    "employeeID": "1549",
+    "designation": "Associate Principal Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "Jul 30, 1987",
+    "hiredOn": "Sep 12, 2011",
+    "email": "shahina@qburst.com",
+    "phone": "9497389625",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "emaar_properties_PJSC",
+        "name": "HTML Developer T&M",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "shahina.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular"]
+  },
+  {
+    "name": {
+      "first": "Ananya",
+      "last": "Vinod"
+    },
+    "userId": "ananya",
+    "employeeID": "4149",
+    "designation": "Senior Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "Jul 30, 1995",
+    "hiredOn": "Sep 09, 2020",
+    "email": "ananya@qburst.com",
+    "phone": "9497389625",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "qburst",
+        "name": "QBurst.com",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "ananya.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
+  },
+  {
+    "name": {
+      "first": "Aswathy",
+      "last": "Rajiv"
+    },
+    "userId": "aswathy",
+    "employeeID": "1279",
+    "designation": "Associate Principal Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "Jul 30, 1990",
+    "hiredOn": "Nov 30, 2020",
+    "email": "aswathy@qburst.com",
+    "phone": "9497389625",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "bozzuto",
+        "name": "Bozzuto maintenance",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "aswathy.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
+  },
+  {
+    "name": {
+      "first": "Kannan",
+      "last": "Karippayil"
+    },
+    "userId": "kannan",
+    "employeeID": "5248",
+    "designation": "Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "Aug 13, 1995",
+    "hiredOn": "Aug 17, 2021",
+    "email": " karthikam@qburst.com",
+    "phone": "9497389625",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "bozzuto",
+        "name": "Bozzuto - Cascade",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "kannan.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
+  },
+  {
+    "name": {
+      "first": "Praveen",
+      "last": "Sasidharan"
+    },
+    "userId": "praveen",
+    "employeeID": "2534",
+    "designation": "Associate Principal Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "April 17, 1991",
+    "hiredOn": "Mar 01, 2015",
+    "email": " praveens@qburst.com",
+    "phone": "9497389625",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "profile_studio",
+        "name": "Profile Studio",
+        "allocationPercentage": 50
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "praveen.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
+  },
+  {
+    "name": {
+      "first": "Pulari",
+      "last": "Jith"
+    },
+    "userId": "pulari",
+    "employeeID": "5249",
+    "designation": "Engineer",
+    "grade": "D2",
+    "stream": "HTML5",
+    "dob": "April 17, 1996",
+    "hiredOn": "Aug 17, 21",
+    "email": " pulari@qburst.com",
+    "phone": "9497389625",
+    "address": {
+      "street": "Kazhakootam",
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "zip": "695585"
+    },
+    "projects": [
+      {
+        "projectId": "qburst",
+        "name": "QBurst.com",
+        "allocationPercentage": 100
+      }
+    ],
+    "department": "Development",
+    "gender": "female",
+    "portrait": "pulari.jpeg",
+    "virtualTeam": "Trivandrum",
+    "skills": ["CSS3", "jQuery", "ES6", "GIT", "CMS", "Angular","SASS"]
+  }
+]
