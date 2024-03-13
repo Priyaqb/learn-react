@@ -1,0 +1,55 @@
+h2 {
+    color: #2f86d3;
+}
+
+.user-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .user-table thead tr {
+    background-color: #E0E0E0;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 25px;
+    color: #213547;
+  }
+  
+  .user-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .user-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3 ;
+  }
+  
+  .user-table tbody tr:last-of-type {
+    border-bottom: 2px solid #bdbdbd;
+  }
+  .profilePic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid #f3f3f3;
+  }
+
+  .btn-view {
+    background: #435bf2;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 15px;
+  }
+  

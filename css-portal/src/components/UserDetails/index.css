@@ -1,0 +1,85 @@
+.user-card {
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    position: relative;
+
+    .col-right {
+        text-align: left;
+    }
+}
+.displayPic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+}
+.rc-slider {
+    width: 50%;
+    margin: 50px 0 50px;
+}
+.rc-slider-track, .rc-slider-tracks {
+    background-color: #2f86d3;
+}
+.col-left,
+.col-right {
+    flex: 1;
+    min-width: 350px;
+}
+.col-left {
+    background: #E3F2FD;
+    padding: 15px;
+}
+.icon-wrapper {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.icon-wrapper svg path {
+    fill: #2196F3;
+}
+/* .col-mid {
+    height: 255px;
+    width: 1px;
+    display: flex;
+    background: linear-gradient(transparent,#9E9E9E, transparent);
+    flex: 0 0 1px;
+} */
+.m-b-8 {
+    margin-bottom: 8px;
+}
+.skill-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.skill-wrapper span {
+    background: #2f86d3;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #fff;
+}
+.btn-back {
+    position: absolute;
+    right: 0;
+    top: -51px;
+}
+.rc-slider-handle {
+    cursor: default;
+}
+.rc-slider-handle:before {
+    content: attr(aria-valuenow) ' %';
+    background: #2f86d3;
+    font-size: 12px;
+    display: flex;
+    width: 35px;
+    padding: 5px;
+    justify-content: center;
+    margin-top: -33px;
+    color: #fff;
+    border-radius: 10px;
+}
