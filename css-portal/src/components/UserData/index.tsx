@@ -1,43 +1,8 @@
+import { Item }from '../Types';
 import { useState, useEffect } from 'react';
 
-interface Name {
-    first: string;
-    last: string;
-  }
-  interface Address {
-    street: string;
-    city: string;
-    state: string;
-    zip: string;
-  }
-  interface Projects {
-    projectId: string;
-    name: string;
-    allocationPercentage: number;
-  }
-  
-  interface Item {
-    name: Name;
-    userId: string;
-    employeeID: string;
-    designation: string;
-    stream: string;
-    dob: string;
-    hiredOn: string;
-    email: string;
-    phone: string;
-    address: Address;
-    projects: Projects[];
-    department: string;
-    gender: string;
-    portrait: string;
-    virtualTeam: string;
-    grade: string;
-    skills: string[]
-  }
-
-const UserData = () => {
-  const [userData, setUserData] = useState<Item[]>([]);
+const userData = () => {
+  const [data, setUserData] = useState<Item[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -56,8 +21,8 @@ const UserData = () => {
     fetchData();
   }, []);
 
-  return userData;
+  return data;
 };
 
-export default UserData;
+export default userData;
 
