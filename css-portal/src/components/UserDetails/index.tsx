@@ -1,55 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import UserData from '../UserData';
+import userData from '../UserData';
+import { Projects, Item }from '../Types';
 import Slider from 'rc-slider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import 'rc-slider/assets/index.css';
 import './index.css'
 
-interface Name {
-  first: string;
-  last: string;
-}
-interface Address {
-  street: string;
-  city: string;
-  state: string;
-  zip: string;
-}
-interface Projects {
-  projectId: string;
-  name: string;
-  allocationPercentage: number;
-}
 
-interface UserObj {
-  name: Name;
-  userId: string;
-  employeeID: string;
-  designation: string;
-  grade: string;
-  stream: string;
-  dob: string;
-  hiredOn: string;
-  email: string;
-  phone: string;
-  address: Address;
-  projects: Projects[];
-  department: string;
-  gender: string;
-  portrait: string;
-  virtualTeam: string;
-  skills: string[];
-}
-
-const UserDetails = () => {
-  const userInfo = UserData() as UserObj[]; // Type assertion
+const userDetails = () => {
+  const userInfo = userData() as Item[]; // Type assertion
   const { id } = useParams<{ id: string }>();
 
-  const [userBio, setuserBio] = useState<UserObj | null>(null); // Set initial value to null
-  const [allocation, setallocation] = useState(0);
+  const [userBio, setuserBio] = useState<Item | null>(null); // Set initial value to null
+  const [allocation, setAllocation] = useState(0);
 
   let allocationVal = 0;
 
@@ -57,10 +23,10 @@ const UserDetails = () => {
     const filteredUser = userInfo.find(user => user.employeeID === id);
     if (filteredUser) {
       setuserBio(filteredUser);
-      {filteredUser.projects.map(project => (
-        allocationVal += project.allocationPercentage
-      ))}
-      setallocation(allocationVal);
+      allocationVal = filteredUser.projects.reduce((accumulator, project) => {
+        return accumulator + project.allocationPercentage;
+      }, 0);
+      setAllocation(allocationVal);
     }
     
   }, [id, userInfo]);
@@ -100,8 +66,8 @@ const UserDetails = () => {
                 />
                 <h3>Projects</h3>
                 <ul>
-                    {userBio.projects.map(project => (
-                        <li>
+                    {userBio.projects.map((project: Projects, index) => (
+                        <li key={index}>
                             <span>{project.name} &nbsp; - &nbsp;</span>
                             <span><b>{project.allocationPercentage}%</b></span>
                         </li>
@@ -109,8 +75,8 @@ const UserDetails = () => {
                 </ul>
                 <h3>Skills</h3>
                 <p className='skill-wrapper'>
-                    {userBio.skills.map(skill => (
-                        <span>{skill}</span>
+                    {userBio.skills.map((skill, index) => (
+                        <span key={index}>{skill}</span>
                     ))}
                 </p>
             </div>
@@ -122,6 +88,6 @@ const UserDetails = () => {
   );
 };
 
-export default UserDetails;
+export default userDetails;
 
 
